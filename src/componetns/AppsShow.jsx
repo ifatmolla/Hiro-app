@@ -10,7 +10,7 @@ const AppsShow = ({ app }) => {
     // console.log(navigation.state)
 
     const navigate = useNavigate()
-
+ 
     // installation page Handle
     const installationHandle = (app) => {
         navigate(`/apps-ditailes/${app.id}`, { state: { app } })
