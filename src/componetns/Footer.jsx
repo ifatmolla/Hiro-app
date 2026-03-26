@@ -10,7 +10,7 @@ const Footer = () => {
             <nav className='max-w-[250px]'>
                 <span className='flex items-center gap-2'>
                     <img
-                        className='w-12 opacity-55'
+                        className='w-12 opacity-55' 
                         src={img} alt="logo" />
                     <span className='text-lg font-bold text-gray-400'>Hero.Io</span>
                 </span>

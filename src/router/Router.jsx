@@ -12,7 +12,7 @@ const Apps = React.lazy(() => import("../pages/Apps"));
 const Installation = React.lazy(() => import("../pages/Installation"));
 
 
-export const Router = createBrowserRouter([
+export const Router = createBrowserRouter([ 
     {
         path: '/',
         errorElement: <Errors />,

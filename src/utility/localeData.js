@@ -10,7 +10,7 @@ const getStoredApp = () => {
     } else {
         return [];
     }
-
+ 
 }
 
 const addToStoredDB = (id) => {

@@ -36,7 +36,7 @@ const App = () => {
             setDisabled(false)
         }
     }, [app.id]);
-
+    
     // installHandle btn
     const installHandle = (id) => {
 
